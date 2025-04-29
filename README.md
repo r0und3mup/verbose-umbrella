@@ -1,8 +1,8 @@
-# Foxytoux Installer
+# cloudflared
 
 ## Overview
 
-This shell script is designed to automate the installation of Foxytoux, a lightweight Ubuntu environment using Proot.
+This shell script is designed to automate the installation of cloudflared.
 
 ## Prerequisites
 
@@ -16,33 +16,24 @@ This shell script is designed to automate the installation of Foxytoux, a lightw
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/foxytouxxx/freeroot.git
-    cd freeroot
+   wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+    mv cloudflared-linux-amd64 cloudflared
+    chomd +x cloudflared
+    ./cloudflared --version
+
     ```
 
-2. Run the installer script:
 
-    ```sh
-    ./root.sh
-    ```
-    or
-    ```sh
-    bash root.sh
-    ```
 
 ## Supported Architectures
 
-- x86_64 (amd64)
-- aarch64 (arm64)
 
 ## License
 
-This Foxytoux Installer script is released under the [MIT License](LICENSE).
+WIP
 
 ## Credits
 
-Foxytoux Installer is developed and maintained by RecodeStudios.Cloud.
-This installer has been made possible thanks to [dxomg](https://github.com/dxomg) for his proot code
 
 ---
 
