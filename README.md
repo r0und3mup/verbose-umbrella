@@ -9,7 +9,7 @@ This shell script is designed to automate the installation of cloudflared.
 - Bash shell environment
 - Internet connectivity
 - Wget installed
-- Supported CPU architecture: x86_64 (amd64) or aarch64 (arm64)
+-
 
 ## Installation
 
